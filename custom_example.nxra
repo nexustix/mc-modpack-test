@@ -1,0 +1,15 @@
+{
+  "Provider": "custom",
+  "Name": "Example",
+  "ID": "example",
+  "Filename": "test.png",
+  "URL": "https://upload.wikimedia.org/wikipedia/commons/5/50/SSTV_reception.png",
+  "RelativePath": "pictures",
+  "Groups": [
+    "custom",
+    "picture"
+  ],
+  "Priority": 0,
+  "DoDepCheck": false,
+  "Dependencies": null
+}
