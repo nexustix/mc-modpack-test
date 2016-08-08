@@ -1,0 +1,15 @@
+{
+  "Provider": "custom",
+  "Name": "Adamantine simpleoregen config",
+  "ID": "adm-simpleoregen-cfg",
+  "Filename": "simpleoregen.cfg",
+  "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Adamantine/config/simpleoregen/simpleoregen.cfg",
+  "RelativePath": "config/simpleoregen",
+  "Groups": [
+    "custom",
+    "config"
+  ],
+  "Priority": 0,
+  "DoDepCheck": false,
+  "Dependencies": null
+}
