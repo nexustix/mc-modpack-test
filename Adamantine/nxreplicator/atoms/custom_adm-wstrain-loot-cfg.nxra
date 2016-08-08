@@ -1,0 +1,15 @@
+{
+  "Provider": "custom",
+  "Name": "Adamantine Waterstrainer loot config",
+  "ID": "adm-wstrain-loot-cfg",
+  "Filename": "waterstrainer_loottables.cfg",
+  "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Adamantine/config/waterstrainer_loottables.cfg",
+  "RelativePath": "config",
+  "Groups": [
+    "custom",
+    "config"
+  ],
+  "Priority": 0,
+  "DoDepCheck": false,
+  "Dependencies": null
+}
