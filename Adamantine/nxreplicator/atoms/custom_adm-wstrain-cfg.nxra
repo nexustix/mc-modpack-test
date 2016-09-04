@@ -3,8 +3,8 @@
   "Name": "Adamantine Waterstrainer config",
   "ID": "adm-wstrain-cfg",
   "Filename": "waterstrainer.cfg",
-  "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Adamantine/config/waterstrainer.cfg",
-  "RelativePath": "config",
+  "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Adamantine/config/waterstrainer/waterstrainer.cfg",
+  "RelativePath": "config/waterstrainer",
   "Groups": [
     "custom",
     "config"
