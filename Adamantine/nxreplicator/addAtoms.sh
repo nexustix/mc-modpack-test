@@ -106,6 +106,10 @@ appendAtom water-strainer
 appendAtom immersive-engineering
 
 
+appendAtom mcjtylib
+appendAtom ftblib
+
+
 addAtom custom adm-ic2-cfg
 addAtom custom adm-simpleoregen-cfg
 addAtom custom adm-wstrain-cfg
