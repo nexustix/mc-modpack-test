@@ -1,46 +1,145 @@
-packName=Adamantine
+packName=Adamantine_0
+doSearchAtoms=true
+
+Atoms=()
+UnresolvedAtoms=()
+
+function appendAtom() {
+    Atoms[${#Atoms[*]}]=$1
+}
+
+function appendUnresolvedAtom() {
+    UnresolvedAtoms[${#UnresolvedAtoms[*]}]=$1
+}
+
+<<COMMENT00
+if [ "$1" == "" ]
+    then
+        echo "<DS> NO SEARCH >$1<"
+        doSearchAtoms=false
+    else
+        echo "<DS> SEARCH >$1<"
+        doSearchAtoms=true
+fi
+COMMENT00
+
+function atomKnown() {
+    if nxatomize list | grep -q "$1"; then
+        echo "<DS> FOUND >$1<"
+        return 0
+    fi
+    return 1
+    echo "<DS> MISSING >$1<"
+}
+
+function searchAtom() {
+    atomKnown $2
+    if test $? = 0; then
+        echo "<S> Found -> Skipping search"
+        return 0
+    else
+        if test $doSearchAtoms = true;then
+            echo "<S> Searching $1 $2"
+            nxatomize search $1 $2
+            sleep 3
+        else
+            echo "<S> Skipping search"
+        fi
+    fi
+}
+
+function addAtom() {
+    echo "<S> Adding atom $1 $2"
+    if nxfusion add $packName $1 $2 | grep -q "<\!> ERROR"; then
+        appendUnresolvedAtom $2
+    fi
+}
+
+function searchAndAdd() {
+    searchAtom $1 $2
+    addAtom $1 $2
+    echo ---
+}
+
+function processAtoms() {
+    for item in ${Atoms[*]}
+    do
+        #printf "   %s\n" $item
+        searchAndAdd curse $item
+    done
+}
+
+#nxatomize search curse industrial-craft | grep "<!> ERROR"
+#nxfusion add Adamantine_0 curse industrial-craft | grep "<!> ERROR"
+
+#appendAtom actually-additions
+
+#addUnresolvedAtom the
+#UnresolvedAtoms[${#UnresolvedAtoms[*]}]=cake
+#UnresolvedAtoms[${#UnresolvedAtoms[*]}]=is
+#UnresolvedAtoms[${#UnresolvedAtoms[*]}]=a
+#UnresolvedAtoms[${#UnresolvedAtoms[*]}]=lie
+
 
 #TODO delete molecule first
 
-nxfusion add $packName curse actually-additions
-nxfusion add $packName curse chameleon
-nxfusion add $packName curse charset
-nxfusion add $packName curse correlated-potentialistics
-nxfusion add $packName curse ender-io
-nxfusion add $packName curse endercore
-nxfusion add $packName curse enderthing
-nxfusion add $packName curse extra-utilities
-nxfusion add $packName curse ftb-utilities
+#searchAtom curse actually-additions
+#addAtom curse actually-additions
+#searchAndAdd curse actually-additions
+#atomKnown actually-additions
+
+#<<COMMENT0
+appendAtom actually-additions
+appendAtom chameleon
+appendAtom charset
+appendAtom correlated-potentialistics
+appendAtom ender-io
+appendAtom endercore
+appendAtom enderthing
+appendAtom extra-utilities
+appendAtom ftb-utilities
 #dependency (ftblib)
-nxfusion add $packName curse giacomos-foundry
-nxfusion add $packName curse industrial-craft
-nxfusion add $packName curse inventory-tweaks
-nxfusion add $packName curse journeymap-32274
-nxfusion add $packName curse just-enough-items-jei
-nxfusion add $packName curse just-enough-resources-jer
-nxfusion add $packName curse openglasses
-nxfusion add $packName curse opencomputers
-#nxfusion add $packName curse openfm
-nxfusion add $packName curse openprinter
-nxfusion add $packName curse openradio
-nxfusion add $packName curse ore-control
-nxfusion add $packName curse redstone-paste
-nxfusion add $packName curse rftools
-nxfusion add $packName curse rftools-dimensions
-nxfusion add $packName curse roguelike-dungeons
-nxfusion add $packName curse simpleoregen
-nxfusion add $packName curse storage-drawers
-nxfusion add $packName curse the-one-probe
-nxfusion add $packName curse tis-3d
-nxfusion add $packName curse vending-block
-nxfusion add $packName curse water-strainer
+appendAtom giacomos-foundry
+appendAtom industrial-craft
+appendAtom inventory-tweaks
+appendAtom journeymap-32274
+appendAtom just-enough-items-jei
+appendAtom just-enough-resources-jer
+appendAtom openglasses
+appendAtom opencomputers
+#appendAtom openfm
+appendAtom openprinter
+appendAtom openradio
+appendAtom ore-control
+appendAtom redstone-paste
+appendAtom rftools
+appendAtom rftools-dimensions
+appendAtom roguelike-dungeons
+appendAtom simpleoregen
+appendAtom storage-drawers
+appendAtom the-one-probe
+appendAtom tis-3d
+appendAtom vending-block
+appendAtom water-strainer
 
-nxfusion add $packName curse immersive-engineering
+appendAtom immersive-engineering
 
 
-nxfusion add $packName custom adm-ic2-cfg
-nxfusion add $packName custom adm-simpleoregen-cfg
-nxfusion add $packName custom adm-wstrain-cfg
-nxfusion add $packName custom adm-wstrain-loot-cfg
+addAtom custom adm-ic2-cfg
+addAtom custom adm-simpleoregen-cfg
+addAtom custom adm-wstrain-cfg
+addAtom custom adm-wstrain-loot-cfg
+#COMMENT0
 
 #nxcrunch generate $packName $packName
+
+processAtoms
+
+x="\e[33m"  # opening ansi color code for yellow text
+y="\e[0m"   # ending ansi code
+
+for item in ${UnresolvedAtoms[*]}
+do
+    printf "<S!> MISSING:"
+    printf "   $x%s$y\n" $item
+done
