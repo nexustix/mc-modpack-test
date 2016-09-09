@@ -69,25 +69,6 @@ function processAtoms() {
     done
 }
 
-#nxatomize search curse industrial-craft | grep "<!> ERROR"
-#nxfusion add Adamantine_0 curse industrial-craft | grep "<!> ERROR"
-
-#appendAtom actually-additions
-
-#addUnresolvedAtom the
-#UnresolvedAtoms[${#UnresolvedAtoms[*]}]=cake
-#UnresolvedAtoms[${#UnresolvedAtoms[*]}]=is
-#UnresolvedAtoms[${#UnresolvedAtoms[*]}]=a
-#UnresolvedAtoms[${#UnresolvedAtoms[*]}]=lie
-
-
-#TODO delete molecule first
-
-#searchAtom curse actually-additions
-#addAtom curse actually-additions
-#searchAndAdd curse actually-additions
-#atomKnown actually-additions
-
 #<<COMMENT0
 appendAtom actually-additions
 appendAtom chameleon
