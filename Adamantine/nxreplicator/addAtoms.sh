@@ -124,3 +124,15 @@ do
     printf "<S!> MISSING:"
     printf "   $x%s$y\n" $item
 done
+
+while getopts ":g" opt; do
+  case $opt in
+    g)
+      #echo "-g was triggered!" >&2
+      nxcrunch generate $packName $packName
+      ;;
+    \?)
+      echo "Invalid option: -$OPTARG" >&2
+      ;;
+  esac
+done
