@@ -1,0 +1,15 @@
+{
+  "Provider": "custom",
+  "Name": "Adamantine actuallyadditions config",
+  "ID": "adm-actuallyadditions-cfg",
+  "Filename": "actuallyadditions.cfg",
+  "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Adamantine/config/actuallyadditions.cfg",
+  "RelativePath": "config",
+  "Groups": [
+    "custom",
+    "config"
+  ],
+  "Priority": 0,
+  "DoDepCheck": false,
+  "Dependencies": null
+}

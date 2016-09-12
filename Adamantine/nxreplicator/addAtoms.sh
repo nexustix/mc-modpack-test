@@ -118,6 +118,8 @@ addAtom custom adm-wstrain-loot-cfg
 
 addAtom custom adm-orecontrol-cfg
 
+addAtom custom adm-actuallyadditions-cfg
+
 addAtom custom adm-immersiveengineering-cfg
 
 addAtom custom adm-mekanism
