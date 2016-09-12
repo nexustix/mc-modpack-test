@@ -31,6 +31,20 @@
             }
         },
         {
+            "RelativePath": "config/simpleoregen",
+            "Download": {
+                "Filename": "blockoregen.xml",
+                "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Adamantine/config/simpleoregen/blockoregen.xml"
+            }
+        },
+        {
+            "RelativePath": "config/simpleoregen",
+            "Download": {
+                "Filename": "commands.xml",
+                "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Adamantine/config/simpleoregen/commands.xml"
+            }
+        },
+        {
             "RelativePath": "config",
             "Download": {
                 "Filename": "actuallyadditions.cfg",

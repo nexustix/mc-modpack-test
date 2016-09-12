@@ -1,0 +1,15 @@
+{
+  "Provider": "custom",
+  "Name": "Adamantine simpleoregen oregen config",
+  "ID": "adm-simpleoregen-oregen-cfg",
+  "Filename": "blockoregen.xml",
+  "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Adamantine/config/simpleoregen/blockoregen.xml",
+  "RelativePath": "config/simpleoregen",
+  "Groups": [
+    "custom",
+    "config"
+  ],
+  "Priority": 0,
+  "DoDepCheck": false,
+  "Dependencies": null
+}
