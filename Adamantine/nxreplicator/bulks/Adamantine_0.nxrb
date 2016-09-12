@@ -33,6 +33,13 @@
         {
             "RelativePath": "config",
             "Download": {
+                "Filename": "actuallyadditions.cfg",
+                "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Adamantine/config/actuallyadditions.cfg"
+            }
+        },
+        {
+            "RelativePath": "config",
+            "Download": {
                 "Filename": "immersiveengineering.cfg",
                 "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Adamantine/config/immersiveengineering.cfg"
             }
