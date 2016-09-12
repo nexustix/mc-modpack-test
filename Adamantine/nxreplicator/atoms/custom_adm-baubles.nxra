@@ -1,0 +1,15 @@
+{
+  "Provider": "custom",
+  "Name": "Adamantine baubles",
+  "ID": "adm-baubles",
+  "Filename": "Baubles-1.9.4-1.2.1.0.jar",
+  "URL": "https://minecraft.curseforge.com/projects/baubles/files/2301094/download",
+  "RelativePath": "mods",
+  "Groups": [
+    "custom",
+    "mod"
+  ],
+  "Priority": 0,
+  "DoDepCheck": false,
+  "Dependencies": null
+}
