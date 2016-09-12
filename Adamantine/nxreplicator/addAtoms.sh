@@ -81,7 +81,7 @@ appendAtom extra-utilities
 appendAtom ftb-utilities
 #dependency (ftblib)
 appendAtom giacomos-foundry
-appendAtom industrial-craft
+#appendAtom industrial-craft
 appendAtom inventory-tweaks
 appendAtom journeymap-32274
 appendAtom just-enough-items-jei
@@ -92,7 +92,7 @@ appendAtom opencomputers
 appendAtom openprinter
 appendAtom openradio
 appendAtom ore-control
-appendAtom redstone-paste
+#appendAtom redstone-paste
 appendAtom rftools
 appendAtom rftools-dimensions
 appendAtom roguelike-dungeons
@@ -110,11 +110,17 @@ appendAtom mcjtylib
 appendAtom ftblib
 
 
-addAtom custom adm-ic2-cfg
+#addAtom custom adm-ic2-cfg
 addAtom custom adm-simpleoregen-cfg
 addAtom custom adm-wstrain-cfg
 addAtom custom adm-wstrain-loot-cfg
 #COMMENT0
+
+addAtom custom adm-immersiveengineering-cfg
+
+addAtom custom adm-mekanism
+addAtom custom adm-mekanism-generators
+addAtom custom adm-mekanism-cfg
 
 #nxcrunch generate $packName $packName
 

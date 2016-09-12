@@ -9,7 +9,13 @@
             <block>minecraft:redstone_ore</block>
             <block>minecraft:diamond_ore</block>
             <block>minecraft:emerald_ore</block>
-            <block>mekanism:OreBlock</block>
+            <block>mekanism:OreBlock[type=osmium]</block>
+            <block>actuallyadditions:blockMisc[meta=3]</block>
+            <block>immersiveengineering:ore[type=copper]</block>
+            <block>immersiveengineering:ore[type=aluminum]</block>
+            <block>immersiveengineering:ore[type=lead]</block>
+            <block>immersiveengineering:ore[type=silver]</block>
+            <block>immersiveengineering:ore[type=nickel]</block>
         </ores>
         <name_here>
             <block>minecraft:dirt</block>
@@ -26,6 +32,13 @@
             <block>minecraft:redstone_ore</block>
             <block>minecraft:diamond_ore</block>
             <block>minecraft:emerald_ore</block>
+            <block>mekanism:OreBlock[type=osmium]</block>
+            <block>actuallyadditions:blockMisc[meta=3]</block>
+            <block>immersiveengineering:ore[type=copper]</block>
+            <block>immersiveengineering:ore[type=aluminum]</block>
+            <block>immersiveengineering:ore[type=lead]</block>
+            <block>immersiveengineering:ore[type=silver]</block>
+            <block>immersiveengineering:ore[type=nickel]</block>
         </ores>
     </count>
     <spawn/>

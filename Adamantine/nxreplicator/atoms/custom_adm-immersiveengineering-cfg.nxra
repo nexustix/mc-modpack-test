@@ -1,0 +1,15 @@
+{
+  "Provider": "custom",
+  "Name": "Adamantine immersiveengineering config",
+  "ID": "adm-immersiveengineering-cfg",
+  "Filename": "immersiveengineering.cfg",
+  "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Adamantine/config/immersiveengineering.cfg",
+  "RelativePath": "config",
+  "Groups": [
+    "custom",
+    "config"
+  ],
+  "Priority": 0,
+  "DoDepCheck": false,
+  "Dependencies": null
+}

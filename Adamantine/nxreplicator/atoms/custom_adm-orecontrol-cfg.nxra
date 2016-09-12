@@ -1,0 +1,15 @@
+{
+  "Provider": "custom",
+  "Name": "Adamantine orecontrol config",
+  "ID": "custom_adm-orecontrol-cfg",
+  "Filename": "orecontrol.cfg",
+  "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Adamantine/config/orecontrol.cfg",
+  "RelativePath": "config",
+  "Groups": [
+    "custom",
+    "config"
+  ],
+  "Priority": 0,
+  "DoDepCheck": false,
+  "Dependencies": null
+}
