@@ -111,7 +111,7 @@ appendAtom ftblib
 
 
 appendAtom biomes-o-plenty
-appendAtom botania-unofficial
+#appendAtom botania-unofficial
 #appendAtom baubles
 
 
@@ -134,7 +134,7 @@ addAtom custom adm-mekanism
 addAtom custom adm-mekanism-generators
 addAtom custom adm-mekanism-cfg
 
-addAtom custom adm-baubles
+#addAtom custom adm-baubles
 
 #nxcrunch generate $packName $packName
 
