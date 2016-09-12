@@ -26,6 +26,13 @@
         {
             "RelativePath": "config",
             "Download": {
+                "Filename": "orecontrol.cfg",
+                "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Adamantine/config/orecontrol.cfg"
+            }
+        },
+        {
+            "RelativePath": "config",
+            "Download": {
                 "Filename": "immersiveengineering.cfg",
                 "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Adamantine/config/immersiveengineering.cfg"
             }
