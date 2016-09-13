@@ -110,7 +110,7 @@ appendAtom mcjtylib
 appendAtom ftblib
 
 
-appendAtom biomes-o-plenty
+#appendAtom biomes-o-plenty
 #appendAtom botania-unofficial
 #appendAtom baubles
 

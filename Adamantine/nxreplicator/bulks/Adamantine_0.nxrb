@@ -236,15 +236,15 @@
         {
             "RelativePath": "mods",
             "Download": {
-                "Filename": "mcjtylib-1.10-2.0.1.jar",
-                "URL": "http://minecraft.curseforge.com/projects/mcjtylib/files/2328916/download"
+                "Filename": "mcjtylib-1.10-2.0.2.jar",
+                "URL": "http://minecraft.curseforge.com/projects/mcjtylib/files/2329916/download"
             }
         },
         {
             "RelativePath": "mods",
             "Download": {
-                "Filename": "rftoolsdim-1.10-4.30beta48.jar",
-                "URL": "http://minecraft.curseforge.com/projects/rftools-dimensions/files/2327008/download"
+                "Filename": "rftoolsdim-1.10-4.30beta49.jar",
+                "URL": "http://minecraft.curseforge.com/projects/rftools-dimensions/files/2329947/download"
             }
         },
         {
@@ -271,8 +271,8 @@
         {
             "RelativePath": "mods",
             "Download": {
-                "Filename": "theoneprobe-1.10-1.1.0.jar",
-                "URL": "http://minecraft.curseforge.com/projects/the-one-probe/files/2327001/download"
+                "Filename": "theoneprobe-1.10-1.1.1.jar",
+                "URL": "http://minecraft.curseforge.com/projects/the-one-probe/files/2329930/download"
             }
         },
         {
@@ -301,13 +301,6 @@
             "Download": {
                 "Filename": "ImmersiveEngineering-0.10-40.jar",
                 "URL": "http://minecraft.curseforge.com/projects/immersive-engineering/files/2328568/download"
-            }
-        },
-        {
-            "RelativePath": "mods",
-            "Download": {
-                "Filename": "BiomesOPlenty-1.10.2-5.0.0.2068-universal.jar",
-                "URL": "http://minecraft.curseforge.com/projects/biomes-o-plenty/files/2323060/download"
             }
         }
     ]
