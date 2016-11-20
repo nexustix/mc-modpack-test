@@ -1,4 +1,5 @@
-packName=Adamantine_0
+#packName=Adamantine_0
+packName=AdamantineAlpha
 doSearchAtoms=true
 
 Atoms=()
@@ -70,44 +71,50 @@ function processAtoms() {
 }
 
 #<<COMMENT0
-appendAtom actually-additions
-appendAtom chameleon
-appendAtom charset
-appendAtom correlated-potentialistics
-appendAtom ender-io
-appendAtom endercore
-appendAtom enderthing
-appendAtom extra-utilities
-appendAtom ftb-utilities
+appendAtom actually-additions               # TECH
+#appendAtom charset
+#appendAtom correlated-potentialistics
+appendAtom ender-io                         # TECH
+appendAtom ender-zoo                        # MOBS
+appendAtom enderthing                       # STORAGE (Enderchest)
+appendAtom extra-utilities                  # TEC
+appendAtom ftb-utilities                    # MANAGEMENT
 #dependency (ftblib)
-appendAtom giacomos-foundry
+appendAtom giacomos-foundry                 # RECYCLING
 #appendAtom industrial-craft
-appendAtom inventory-tweaks
-appendAtom journeymap-32274
-appendAtom just-enough-items-jei
-appendAtom just-enough-resources-jer
-appendAtom openglasses
-appendAtom opencomputers
+appendAtom inventory-tweaks                 # HELPER
+appendAtom journeymap-32274                 # MAP
+appendAtom just-enough-items-jei            # HELPER
+appendAtom just-enough-resources-jer        # HELPER
+appendAtom openglasses                      # COMPUTER
+appendAtom opencomputers                    # COMPUTER
 #appendAtom openfm
-appendAtom openprinter
-appendAtom openradio
-appendAtom ore-control
+appendAtom openprinter                      # COMPUTER
+appendAtom openradio                        # COMPUTER
+appendAtom ore-control                      # OREGEN
 #appendAtom redstone-paste
-appendAtom rftools
-appendAtom rftools-dimensions
-appendAtom roguelike-dungeons
-appendAtom simpleoregen
-appendAtom storage-drawers
-appendAtom the-one-probe
-appendAtom tis-3d
-appendAtom vending-block
-appendAtom water-strainer
+appendAtom rftools                          # TECH
+appendAtom rftools-dimensions               # ???
+appendAtom roguelike-dungeons               # RECYCLING
+appendAtom simpleoregen                     # OREGEN
+appendAtom storage-drawers                  # STORAGE
+appendAtom the-one-probe                    # HELPER
+appendAtom tis-3d                           # COMPUTER
+appendAtom vending-block                    # SOCIAL
+appendAtom water-strainer                   # BALANCE
 
-appendAtom immersive-engineering
+appendAtom immersive-engineering            # TECH
+
+appendAtom refined-storage                  # TECH
+appendAtom tinkers-construct                # RECYCLING
 
 
+appendAtom endercore
+appendAtom chameleon
 appendAtom mcjtylib
 appendAtom ftblib
+
+appendAtom mantle
 
 
 #appendAtom biomes-o-plenty
