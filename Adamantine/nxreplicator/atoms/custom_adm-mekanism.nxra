@@ -2,8 +2,8 @@
   "Provider": "custom",
   "Name": "Mekanism",
   "ID": "adm-mekanism",
-  "Filename": "Mekanism-1.10.2-9.2.0.292.jar",
-  "URL": "http://aidancbrady.com/wp-content/uploads/mekanism/292-recommended/Mekanism-1.10.2-9.2.0.292.jar",
+  "Filename": "Mekanism-1.10.2-9.2.1.295.jar",
+  "URL": "http://aidancbrady.com/wp-content/uploads/mekanism/295-recommended/Mekanism-1.10.2-9.2.1.295.jar",
   "RelativePath": "mods",
   "Groups": [
     "custom",

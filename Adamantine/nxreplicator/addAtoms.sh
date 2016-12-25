@@ -77,7 +77,7 @@ appendAtom actually-additions               # TECH
 appendAtom ender-io                         # TECH
 appendAtom ender-zoo                        # MOBS
 appendAtom enderthing                       # STORAGE (Enderchest)
-appendAtom extra-utilities                  # TEC
+#appendAtom extra-utilities                  # TEC
 appendAtom ftb-utilities                    # MANAGEMENT
 #dependency (ftblib)
 appendAtom giacomos-foundry                 # RECYCLING
@@ -100,7 +100,7 @@ appendAtom simpleoregen                     # OREGEN
 appendAtom storage-drawers                  # STORAGE
 appendAtom the-one-probe                    # HELPER
 appendAtom tis-3d                           # COMPUTER
-appendAtom vending-block                    # SOCIAL
+#appendAtom vending-block                    # SOCIAL
 appendAtom water-strainer                   # BALANCE
 
 appendAtom immersive-engineering            # TECH
@@ -115,6 +115,7 @@ appendAtom mcjtylib
 appendAtom ftblib
 
 appendAtom mantle
+appendAtom tesla
 
 
 #appendAtom biomes-o-plenty

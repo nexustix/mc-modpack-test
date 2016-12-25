@@ -18,7 +18,6 @@ client {
 
 general {
     B:AestheticWorldDamage=true
-    B:AllowChunkloading=true
     B:AllowSpawnerBoxPickup=true
     B:AllowTransmitterAlloyUpgrade=true
     I:ArmoredJepackDamageMax=115
@@ -63,9 +62,10 @@ general {
     I:ObsidianTNTDelay=100
     B:OpsBypassRestrictions=false
     I:OsmiumPerChunk=0
+    B:PrefilledFluidTanks=true
     B:PrefilledGasTanks=true
     B:PumpWaterSources=false
-    D:RFToJoules=0.4
+    D:RFToJoules=0.2
     I:SaltPerChunk=0
     B:SpawnBabySkeletons=true
     D:SuperheatingHeatTransfer=10000.0
@@ -95,7 +95,7 @@ generation {
     D:WindGenerationMax=64.0
     I:WindGenerationMaxY=255
     D:WindGenerationMin=4.0
-    I:WindGenerationMinY=24
+    I:WindGenerationMinY=32
 }
 
 
@@ -178,11 +178,6 @@ tier {
     I:BasicTransporterSpeed=5
     I:BasicTubeCapacity=256
     I:BasicTubePullAmount=64
-    I:CreativeBinStorage=2147483647
-    I:CreativeFluidTankOutput=2147483647
-    I:CreativeFluidTankStorage=2147483647
-    I:CreativeGasTankOutput=2147483647
-    I:CreativeGasTankStorage=2147483647
     I:EliteBinStorage=32768
     I:EliteCableCapacity=64000
     D:EliteConductorConductionInsulation=8000.0

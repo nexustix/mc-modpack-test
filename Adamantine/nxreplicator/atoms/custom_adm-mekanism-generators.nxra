@@ -2,8 +2,8 @@
   "Provider": "custom",
   "Name": "Mekanism Genarators",
   "ID": "adm-mekanism-generators",
-  "Filename": "MekanismGenerators-1.10.2-9.2.0.292.jar",
-  "URL": "http://aidancbrady.com/wp-content/uploads/mekanism/292-recommended/MekanismGenerators-1.10.2-9.2.0.292.jar",
+  "Filename": "MekanismGenerators-1.10.2-9.2.1.295.jar",
+  "URL": "http://aidancbrady.com/wp-content/uploads/mekanism/295-recommended/MekanismGenerators-1.10.2-9.2.1.295.jar",
   "RelativePath": "mods",
   "Groups": [
     "custom",
