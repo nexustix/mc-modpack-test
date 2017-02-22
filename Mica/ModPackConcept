@@ -1,0 +1,90 @@
+```
+<> = demanded
+   = recommended
+[] = expendable
+{} = eh..
+
+X = External download
+# P = Permission Required-ish
+# S = Serverside only
+# C = Clientside ony
+
+                                                            XPSC#
+-------------------------------------------------------------------------------------------------------
+Tech
+=====
+    <Mekanism>                  N/A                         X---# unbalanced automation
+    OpenConputers               *opencomputers              ----# IT infrastructure
+    Computronics                N/A                         X---# Tapedrives and Cameras
+    OpenPrinter                 *openprinter                ----# Printing and Scanning
+    Ender IO                    *ender-io                   ----# Versatile automation
+    Ender Zoo                   *ender-zoo                  ----# Ender IO Mobs
+    Actually Additions          *actually-additions         ----# Interesting automation
+    Immersive Engineering       *immersive-engineering      ----# Fancy automation
+    Refined Storage             *refined-storage            ----# Strorage and autocrafting
+    RFTools                     *rftools                    ----# Elevators
+    RFTools Dimensions          *rftools-dimensions         ----# Dimensions
+    Railcraft                   *railcraft                  ----# Trains
+    Deep Resonance              *deep-resonance             ----# Fancy Crystal "Reactors"
+    [Open Glasses]              *openglasses                ----# Fancy DIY HeadUpDisplay
+    [TIS3D]                     *tis-3d                     ----# Assembly computers
+    [OpenRadio]                 *openradio                  ----# Transmit data via Lasers
+    [Flux Networks]             *flux-networks              ----# Wireless Power Networks
+
+Magic
+=====
+    Bloodmagic                  *blood-magic                ----# Portals and Rituals
+    Botania                     *botania                    ----# Magic automation
+
+Util
+=====
+    Extra Utillities            *extra-utilities            ----# Primitive automation and chunkloading
+    Tinkers Construct           *tinkers-construct          ----# Fancy Tools and Items
+    Giacomos Foundry            *giacomos-foundry           ----# Resources via recycling
+    The One Probe               *the-one-probe              ----# Info overlay
+    JEI                         *just-enough-items-jei      ----# "How do i craft X" thing
+    Just Enough Resources       *just-enough-resources-jer  ----# JEI plug-in
+    GraveStone Mod              *gravestone-mod             ----# Gravestone instead of piñata-death
+    Better Builders Wands       *better-builders-wands      ----# more/better builders wands
+    Iron Backpacks              *iron-backpacks             ----# Backpacks
+    Bibliocraft                 *bibliocraft                ----# Books and more
+    [Storage Drawers]           *storage-drawers            ----# Fancy storage
+    [Cooking for Blockheads]    *cooking-for-blockheads     ----# Pain-free cooking
+
+Other
+=====
+    <Natura>                    *natura                     ----# Netherberries
+    Rougelike Dungeons          *roguelike-dungeons         ----# Resources via Risk-Reward
+    Pams Harvestcraft           *pams-harvestcraft          ----# Food and Candles
+    Jouernymap                  *journeymap-32274           ----# Fancy minimap
+    Biomes O' Plenty            *biomes-o-plenty            ----# More Biomes
+    Forrestry                   *forestry                   ----# More Trees and Trading
+    [Funky Locomotion]          *funky-locomotion           ----# Frames
+    [SG Craft]                  *sg-craft                   ----# Stargates
+    [Agricraft]                 *agricraft                  ----# Resources via farming
+    [Fast leaf decay]           *fast-leaf-decay            ----# In the name
+    [Inventory Tweaks]          *inventory-tweaks           ----# Sort inventory and more
+    {Ex Nihilo Omnia}            ex-nihilo-omnia            ----# Resources via Thin-air
+    {Waterstrainer}             *water-strainer             ----# Resources via Water
+
+```
+DEPS
+=====
+#*endercore
+#*chameleon
+#*mcjtylib
+#*ftblib
+
+#*mantle
+#*tesla
+
+*infinitylib
+*guide-api
+*baubles
+*eleccore-rendering-library
+*mcjtylib
+#*compatlayer
+*mantle
+*endercore
+*mcmultipart
+*chameleon
