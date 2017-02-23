@@ -1,0 +1,15 @@
+{
+  "Provider": "custom",
+  "Name": "Mica railcraft config",
+  "ID": "mca-railcraft-cfg",
+  "Filename": "railcraft.cfg",
+  "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Mica/config/railcraft/railcraft.cfg",
+  "RelativePath": "config/railcraft",
+  "Groups": [
+    "custom",
+    "config"
+  ],
+  "Priority": 0,
+  "DoDepCheck": false,
+  "Dependencies": null
+}

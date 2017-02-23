@@ -36,6 +36,7 @@ Magic
 =====
     Bloodmagic                  *blood-magic                ----# Portals and Rituals
     Botania                     *botania                    ----# Magic automation
+    PSI                         *psi                        ----# Tech-Magic
 
 Util
 =====
@@ -49,6 +50,8 @@ Util
     Better Builders Wands       *better-builders-wands      ----# more/better builders wands
     Iron Backpacks              *iron-backpacks             ----# Backpacks
     Bibliocraft                 *bibliocraft                ----# Books and more
+    Enderthing                  *enderthing                 ----# Enderchests
+    FTB Utilities               *ftb-utilities              ----# Chunkloading and owning
     [Storage Drawers]           *storage-drawers            ----# Fancy storage
     [Cooking for Blockheads]    *cooking-for-blockheads     ----# Pain-free cooking
 
@@ -57,14 +60,15 @@ Other
     <Natura>                    *natura                     ----# Netherberries
     Rougelike Dungeons          *roguelike-dungeons         ----# Resources via Risk-Reward
     Pams Harvestcraft           *pams-harvestcraft          ----# Food and Candles
-    Jouernymap                  *journeymap-32274           ----# Fancy minimap
+    Jouerneymap                 *journeymap-32274           ----# Fancy minimap
     Biomes O' Plenty            *biomes-o-plenty            ----# More Biomes
     Forestry                    *forestry                   ----# More Trees and Trading
     FastLeafDecay               *fastleafdecay              ----# Fast leaf decay
+    Chisels & Bits              *chisels-bits               ----# Custom decoration
     [Funky Locomotion]          *funky-locomotion           ----# Frames
     [SG Craft]                  *sg-craft                   ----# Stargates
-    [Agricraft]                  agricraft                   ----# Resources via farming
-    Mystical Agriculture         mystical-agriculture       ----# Resources via farming Mk II
+    [Agricraft]                  agricraft                  ----# Resources via farming
+    Mystical Agriculture        *mystical-agriculture       ----# Resources via farming Mk II
     [Fast leaf decay]           *fast-leaf-decay            ----# In the name
     [Inventory Tweaks]          *inventory-tweaks           ----# Sort inventory and more
     {Ex Nihilo Omnia}            ex-nihilo-omnia            ----# Resources via Thin-air
@@ -73,8 +77,8 @@ Other
 ```
 DEPS
 =====
-#ftblib
-#tesla
+*ftblib
+*tesla
 #compatlayer
 
 *infinitylib

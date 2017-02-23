@@ -88,6 +88,7 @@ appendAtom openradio
 appendAtom flux-networks
 appendAtom blood-magic
 appendAtom botania
+appendAtom psi
 appendAtom extra-utilities
 appendAtom tinkers-construct
 appendAtom giacomos-foundry
@@ -98,6 +99,8 @@ appendAtom gravestone-mod
 appendAtom better-builders-wands
 appendAtom iron-backpacks
 appendAtom bibliocraft
+appendAtom enderthing
+appendAtom ftb-utilities
 appendAtom storage-drawers
 appendAtom cooking-for-blockheads
 appendAtom natura
@@ -107,12 +110,16 @@ appendAtom journeymap-32274
 appendAtom biomes-o-plenty
 appendAtom forestry
 appendAtom fastleafdecay
+appendAtom chisels-bits
 appendAtom funky-locomotion
 appendAtom sg-craft
+appendAtom mystical-agriculture
 appendAtom fast-leaf-decay
 appendAtom inventory-tweaks
 #COMMENT0
 
+appendAtom ftblib
+appendAtom tesla
 appendAtom infinitylib
 appendAtom guide-api
 appendAtom baubles
@@ -126,10 +133,11 @@ appendAtom chameleon
 
 addAtom custom adm-mekanism
 addAtom custom adm-mekanism-generators
+addAtom custom mca-computronics
 
 addAtom custom mca-mekanism-cfg
-addAtom custom mca-computronics
 addAtom custom mca-forestry-common-cfg
+addAtom custom mca-railcraft-cfg
 
 processAtoms
 
