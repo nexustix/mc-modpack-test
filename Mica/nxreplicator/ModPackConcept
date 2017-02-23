@@ -13,9 +13,10 @@ X = External download
 -------------------------------------------------------------------------------------------------------
 Tech
 =====
-    <Mekanism>                  N/A                         X---# unbalanced automation
+    Mekanism                    X-adm-mekanism              X---# unbalanced automation
+    <Mekanism Generators>       X-adm-mekanism-generators   X---# unbalanced generators
     OpenConputers               *opencomputers              ----# IT infrastructure
-    Computronics                N/A                         X---# Tapedrives and Cameras
+    Computronics                X-mca-computronics          X---# Tapedrives and Cameras
     OpenPrinter                 *openprinter                ----# Printing and Scanning
     Ender IO                    *ender-io                   ----# Versatile automation
     Ender Zoo                   *ender-zoo                  ----# Ender IO Mobs
@@ -58,32 +59,29 @@ Other
     Pams Harvestcraft           *pams-harvestcraft          ----# Food and Candles
     Jouernymap                  *journeymap-32274           ----# Fancy minimap
     Biomes O' Plenty            *biomes-o-plenty            ----# More Biomes
-    Forrestry                   *forestry                   ----# More Trees and Trading
+    Forestry                    *forestry                   ----# More Trees and Trading
+    FastLeafDecay               *fastleafdecay              ----# Fast leaf decay
     [Funky Locomotion]          *funky-locomotion           ----# Frames
     [SG Craft]                  *sg-craft                   ----# Stargates
-    [Agricraft]                 *agricraft                  ----# Resources via farming
+    [Agricraft]                  agricraft                   ----# Resources via farming
+    Mystical Agriculture         mystical-agriculture       ----# Resources via farming Mk II
     [Fast leaf decay]           *fast-leaf-decay            ----# In the name
     [Inventory Tweaks]          *inventory-tweaks           ----# Sort inventory and more
     {Ex Nihilo Omnia}            ex-nihilo-omnia            ----# Resources via Thin-air
-    {Waterstrainer}             *water-strainer             ----# Resources via Water
+    {Waterstrainer}              water-strainer             ----# Resources via Water
 
 ```
 DEPS
 =====
-#*endercore
-#*chameleon
-#*mcjtylib
-#*ftblib
-
-#*mantle
-#*tesla
+#ftblib
+#tesla
+#compatlayer
 
 *infinitylib
 *guide-api
 *baubles
 *eleccore-rendering-library
 *mcjtylib
-#*compatlayer
 *mantle
 *endercore
 *mcmultipart

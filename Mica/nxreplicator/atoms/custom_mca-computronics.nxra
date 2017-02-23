@@ -1,0 +1,15 @@
+{
+  "Provider": "custom",
+  "Name": "Mica Computronics",
+  "ID": "mca-computronics",
+  "Filename": "Computronics-1.10.2-1.6.1.jar",
+  "URL": "http://files.vexatos.com/Computronics/Computronics-1.10.2-1.6.1.jar",
+  "RelativePath": "mods",
+  "Groups": [
+    "custom",
+    "mod"
+  ],
+  "Priority": 0,
+  "DoDepCheck": false,
+  "Dependencies": null
+}

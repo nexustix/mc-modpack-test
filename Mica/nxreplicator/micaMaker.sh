@@ -96,6 +96,8 @@ appendAtom just-enough-items-jei
 appendAtom just-enough-resources-jer
 appendAtom gravestone-mod
 appendAtom better-builders-wands
+appendAtom iron-backpacks
+appendAtom bibliocraft
 appendAtom storage-drawers
 appendAtom cooking-for-blockheads
 appendAtom natura
@@ -103,23 +105,19 @@ appendAtom roguelike-dungeons
 appendAtom pams-harvestcraft
 appendAtom journeymap-32274
 appendAtom biomes-o-plenty
+appendAtom forestry
+appendAtom fastleafdecay
 appendAtom funky-locomotion
 appendAtom sg-craft
-appendAtom agricraft
 appendAtom fast-leaf-decay
 appendAtom inventory-tweaks
-appendAtom water-strainer
 #COMMENT0
-
-appendAtom iron-backpacks
-appendAtom bibliocraft
 
 appendAtom infinitylib
 appendAtom guide-api
 appendAtom baubles
 appendAtom eleccore-rendering-library
 appendAtom mcjtylib
-#appendAtom compatlayer
 appendAtom mantle
 appendAtom endercore
 appendAtom mcmultipart
@@ -128,7 +126,10 @@ appendAtom chameleon
 
 addAtom custom adm-mekanism
 addAtom custom adm-mekanism-generators
-addAtom custom adm-mekanism-cfg
+
+addAtom custom mca-mekanism-cfg
+addAtom custom mca-computronics
+addAtom custom mca-forestry-common-cfg
 
 processAtoms
 
