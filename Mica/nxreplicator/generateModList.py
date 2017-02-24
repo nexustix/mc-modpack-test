@@ -6,4 +6,4 @@ with open("ModPackConcept") as f:
     for i in content:
         for ii in i.split(" "):
             if ii.startswith("*"):
-                print("appendAtom",ii[1:])
+                print("appendAtom",ii[1:].strip())

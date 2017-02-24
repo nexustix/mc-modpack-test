@@ -1,0 +1,15 @@
+{
+  "Provider": "custom",
+  "Name": "Mica computronics config",
+  "ID": "mca-computronics-cfg",
+  "Filename": "computronics.cfg",
+  "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Mica/config/computronics.cfg",
+  "RelativePath": "config",
+  "Groups": [
+    "custom",
+    "config"
+  ],
+  "Priority": 0,
+  "DoDepCheck": false,
+  "Dependencies": null
+}

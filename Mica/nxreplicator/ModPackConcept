@@ -13,8 +13,8 @@ X = External download
 -------------------------------------------------------------------------------------------------------
 Tech
 =====
-    Mekanism                    X-adm-mekanism              X---# unbalanced automation
     <Mekanism Generators>       X-adm-mekanism-generators   X---# unbalanced generators
+    Mekanism                    X-adm-mekanism              X---# unbalanced automation
     OpenConputers               *opencomputers              ----# IT infrastructure
     Computronics                X-mca-computronics          X---# Tapedrives and Cameras
     OpenPrinter                 *openprinter                ----# Printing and Scanning
@@ -27,6 +27,7 @@ Tech
     RFTools Dimensions          *rftools-dimensions         ----# Dimensions
     Railcraft                   *railcraft                  ----# Trains
     Deep Resonance              *deep-resonance             ----# Fancy Crystal "Reactors"
+    Forestry                    *forestry                   ----# More Trees and Trading
     [Open Glasses]              *openglasses                ----# Fancy DIY HeadUpDisplay
     [TIS3D]                     *tis-3d                     ----# Assembly computers
     [OpenRadio]                 *openradio                  ----# Transmit data via Lasers
@@ -62,13 +63,13 @@ Other
     Pams Harvestcraft           *pams-harvestcraft          ----# Food and Candles
     Jouerneymap                 *journeymap-32274           ----# Fancy minimap
     Biomes O' Plenty            *biomes-o-plenty            ----# More Biomes
-    Forestry                    *forestry                   ----# More Trees and Trading
     FastLeafDecay               *fastleafdecay              ----# Fast leaf decay
     Chisels & Bits              *chisels-bits               ----# Custom decoration
+    Mystical Agriculture        *mystical-agriculture       ----# Resources via farming Mk II
+    Substraum                   *substratum                 ----# gears/bars/dusts for universal use
+    UniDict                     *unidict                    ----# universal gears/bars/dusts
     [Funky Locomotion]          *funky-locomotion           ----# Frames
     [SG Craft]                  *sg-craft                   ----# Stargates
-    [Agricraft]                  agricraft                  ----# Resources via farming
-    Mystical Agriculture        *mystical-agriculture       ----# Resources via farming Mk II
     [Fast leaf decay]           *fast-leaf-decay            ----# In the name
     [Inventory Tweaks]          *inventory-tweaks           ----# Sort inventory and more
     {Ex Nihilo Omnia}            ex-nihilo-omnia            ----# Resources via Thin-air
@@ -90,3 +91,5 @@ DEPS
 *endercore
 *mcmultipart
 *chameleon
+
+*wanionlib

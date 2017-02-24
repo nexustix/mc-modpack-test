@@ -1,0 +1,15 @@
+{
+  "Provider": "custom",
+  "Name": "Mica unidict config",
+  "ID": "mca-unidict-cfg",
+  "Filename": "UniDict.cfg",
+  "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Mica/config/unidict/UniDict.cfg",
+  "RelativePath": "config/unidict",
+  "Groups": [
+    "custom",
+    "config"
+  ],
+  "Priority": 0,
+  "DoDepCheck": false,
+  "Dependencies": null
+}

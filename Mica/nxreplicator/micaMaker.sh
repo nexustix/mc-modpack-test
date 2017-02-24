@@ -82,6 +82,7 @@ appendAtom rftools
 appendAtom rftools-dimensions
 appendAtom railcraft
 appendAtom deep-resonance
+appendAtom forestry
 appendAtom openglasses
 appendAtom tis-3d
 appendAtom openradio
@@ -108,12 +109,13 @@ appendAtom roguelike-dungeons
 appendAtom pams-harvestcraft
 appendAtom journeymap-32274
 appendAtom biomes-o-plenty
-appendAtom forestry
 appendAtom fastleafdecay
 appendAtom chisels-bits
+appendAtom mystical-agriculture
+appendAtom substratum
+appendAtom unidict
 appendAtom funky-locomotion
 appendAtom sg-craft
-appendAtom mystical-agriculture
 appendAtom fast-leaf-decay
 appendAtom inventory-tweaks
 #COMMENT0
@@ -129,6 +131,8 @@ appendAtom mantle
 appendAtom endercore
 appendAtom mcmultipart
 appendAtom chameleon
+appendAtom wanionlib
+
 
 
 addAtom custom adm-mekanism
@@ -138,6 +142,9 @@ addAtom custom mca-computronics
 addAtom custom mca-mekanism-cfg
 addAtom custom mca-forestry-common-cfg
 addAtom custom mca-railcraft-cfg
+addAtom custom mca-unidict-cfg
+addAtom custom mca-computronics-cfg
+
 
 processAtoms
 
