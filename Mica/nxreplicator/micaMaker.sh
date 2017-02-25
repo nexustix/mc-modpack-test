@@ -122,7 +122,7 @@ appendAtom tesla
 appendAtom infinitylib
 appendAtom guide-api
 appendAtom baubles
-appendAtom eleccore-rendering-library
+#appendAtom eleccore-rendering-library
 appendAtom mcjtylib
 appendAtom mantle
 appendAtom endercore
@@ -131,7 +131,7 @@ appendAtom chameleon
 appendAtom wanionlib
 #COMMENT0
 
-#addAtom custom mca-eleccore
+addAtom custom mca-eleccore
 
 
 addAtom custom adm-mekanism
