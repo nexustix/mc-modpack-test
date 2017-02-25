@@ -113,6 +113,7 @@ appendAtom fastleafdecay
 appendAtom chisels-bits
 appendAtom mystical-agriculture
 appendAtom unidict
+appendAtom appleskin
 appendAtom the-spice-of-life
 appendAtom funky-locomotion
 appendAtom sg-craft
