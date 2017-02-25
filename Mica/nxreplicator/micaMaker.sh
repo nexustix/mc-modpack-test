@@ -112,14 +112,11 @@ appendAtom biomes-o-plenty
 appendAtom fastleafdecay
 appendAtom chisels-bits
 appendAtom mystical-agriculture
-appendAtom substratum
 appendAtom unidict
+appendAtom the-spice-of-life
 appendAtom funky-locomotion
 appendAtom sg-craft
-appendAtom fast-leaf-decay
 appendAtom inventory-tweaks
-#COMMENT0
-
 appendAtom ftblib
 appendAtom tesla
 appendAtom infinitylib
@@ -132,7 +129,9 @@ appendAtom endercore
 appendAtom mcmultipart
 appendAtom chameleon
 appendAtom wanionlib
+#COMMENT0
 
+#addAtom custom mca-eleccore
 
 
 addAtom custom adm-mekanism
@@ -144,6 +143,7 @@ addAtom custom mca-forestry-common-cfg
 addAtom custom mca-railcraft-cfg
 addAtom custom mca-unidict-cfg
 addAtom custom mca-computronics-cfg
+addAtom custom mca-railcraft-items-cfg
 
 
 processAtoms

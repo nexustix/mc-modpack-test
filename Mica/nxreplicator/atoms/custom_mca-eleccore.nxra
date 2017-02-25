@@ -1,0 +1,15 @@
+{
+  "Provider": "custom",
+  "Name": "Mica ElecCore",
+  "ID": "mca-eleccore",
+  "Filename": "ElecCore-1.10.2-1.6.379.jar",
+  "URL": "https://minecraft.curseforge.com/projects/eleccore-rendering-library/files/2364987/download",
+  "RelativePath": "mods",
+  "Groups": [
+    "custom",
+    "mod"
+  ],
+  "Priority": 0,
+  "DoDepCheck": false,
+  "Dependencies": null
+}

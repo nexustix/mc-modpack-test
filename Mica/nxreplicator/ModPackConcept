@@ -66,11 +66,12 @@ Other
     FastLeafDecay               *fastleafdecay              ----# Fast leaf decay
     Chisels & Bits              *chisels-bits               ----# Custom decoration
     Mystical Agriculture        *mystical-agriculture       ----# Resources via farming Mk II
-    Substraum                   *substratum                 ----# gears/bars/dusts for universal use
+    Substraum                    substratum                 ----# gears/bars/dusts for universal use
     UniDict                     *unidict                    ----# universal gears/bars/dusts
+    AppleSkin                    appleskin                  ----# Food information (Spice of Life Conflict)
+    The Spice of Life           *the-spice-of-life          ----# Different foods useful
     [Funky Locomotion]          *funky-locomotion           ----# Frames
     [SG Craft]                  *sg-craft                   ----# Stargates
-    [Fast leaf decay]           *fast-leaf-decay            ----# In the name
     [Inventory Tweaks]          *inventory-tweaks           ----# Sort inventory and more
     {Ex Nihilo Omnia}            ex-nihilo-omnia            ----# Resources via Thin-air
     {Waterstrainer}              water-strainer             ----# Resources via Water
