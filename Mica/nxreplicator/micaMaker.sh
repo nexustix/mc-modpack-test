@@ -83,6 +83,8 @@ appendAtom rftools-dimensions
 appendAtom railcraft
 appendAtom deep-resonance
 appendAtom forestry
+appendAtom thermalexpansion
+appendAtom thermal-foundation
 appendAtom openglasses
 appendAtom tis-3d
 appendAtom openradio
@@ -123,16 +125,18 @@ appendAtom tesla
 appendAtom infinitylib
 appendAtom guide-api
 appendAtom baubles
-#appendAtom eleccore-rendering-library
+appendAtom eleccore-rendering-library
 appendAtom mcjtylib
 appendAtom mantle
 appendAtom endercore
 appendAtom mcmultipart
 appendAtom chameleon
 appendAtom wanionlib
+appendAtom cofhcore
+appendAtom codechicken-lib-1-8
 #COMMENT0
 
-addAtom custom mca-eleccore
+#addAtom custom mca-eleccore
 
 
 addAtom custom adm-mekanism
@@ -146,10 +150,17 @@ addAtom custom mca-unidict-cfg
 addAtom custom mca-computronics-cfg
 addAtom custom mca-railcraft-items-cfg
 
+addAtom custom mca-theoneprobe
+
+addAtom custom mca-cofh-cfg
+
+addAtom custom mca-natura-cfg
+addAtom custom mca-natura-modules-cfg
+
 
 processAtoms
 
-x="\e[33m"  # opening ansi color code for yellow text
+x="\e[33m"  # opening ansi color code for yellow (?) text
 y="\e[0m"   # ending ansi code
 
 for item in ${UnresolvedAtoms[*]}

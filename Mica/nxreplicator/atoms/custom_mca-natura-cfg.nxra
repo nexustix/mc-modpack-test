@@ -1,0 +1,15 @@
+{
+  "Provider": "custom",
+  "Name": "Mica Natura config",
+  "ID": "mca-natura-cfg",
+  "Filename": "natura.cfg",
+  "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Mica/config/natura.cfg",
+  "RelativePath": "config",
+  "Groups": [
+    "custom",
+    "config"
+  ],
+  "Priority": 0,
+  "DoDepCheck": false,
+  "Dependencies": null
+}

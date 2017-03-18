@@ -28,6 +28,8 @@ Tech
     Railcraft                   *railcraft                  ----# Trains
     Deep Resonance              *deep-resonance             ----# Fancy Crystal "Reactors"
     Forestry                    *forestry                   ----# More Trees and Trading
+    Thermal Expansion           *thermalexpansion           ----# Things, Stuff, Exitement !!!
+    Thermal Foundation          *thermal-foundation         ----#
     [Open Glasses]              *openglasses                ----# Fancy DIY HeadUpDisplay
     [TIS3D]                     *tis-3d                     ----# Assembly computers
     [OpenRadio]                 *openradio                  ----# Transmit data via Lasers
@@ -44,7 +46,7 @@ Util
     Extra Utillities            *extra-utilities            ----# Primitive automation and chunkloading
     Tinkers Construct           *tinkers-construct          ----# Fancy Tools and Items
     Giacomos Foundry            *giacomos-foundry           ----# Resources via recycling
-    The One Probe               *the-one-probe              ----# Info overlay
+    The One Probe                the-one-probe              ----# Info overlay
     JEI                         *just-enough-items-jei      ----# "How do i craft X" thing
     Just Enough Resources       *just-enough-resources-jer  ----# JEI plug-in
     GraveStone Mod              *gravestone-mod             ----# Gravestone instead of piñata-death
@@ -53,6 +55,7 @@ Util
     Bibliocraft                 *bibliocraft                ----# Books and more
     Enderthing                  *enderthing                 ----# Enderchests
     FTB Utilities               *ftb-utilities              ----# Chunkloading and owning
+    Light level overlay         *light-level-overlay-reloaded---#
     [Storage Drawers]           *storage-drawers            ----# Fancy storage
     [Cooking for Blockheads]    *cooking-for-blockheads     ----# Pain-free cooking
 
@@ -94,3 +97,6 @@ DEPS
 *chameleon
 
 *wanionlib
+
+*cofhcore
+*codechicken-lib-1-8

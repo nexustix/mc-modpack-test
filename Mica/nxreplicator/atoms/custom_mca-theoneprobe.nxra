@@ -1,0 +1,15 @@
+{
+  "Provider": "custom",
+  "Name": "The One Probe",
+  "ID": "mca-theoneprobe",
+  "Filename": "theoneprobe-1.1x-1.4.4.jar",
+  "URL": "https://minecraft.curseforge.com/projects/the-one-probe/files/2384655/download",
+  "RelativePath": "mods",
+  "Groups": [
+    "custom",
+    "mod"
+  ],
+  "Priority": 0,
+  "DoDepCheck": false,
+  "Dependencies": null
+}

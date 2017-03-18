@@ -1,0 +1,15 @@
+{
+  "Provider": "custom",
+  "Name": "Mica cofh config",
+  "ID": "mca-cofh-cfg",
+  "Filename": "thermalfoundation_ores.json",
+  "URL": "https://raw.githubusercontent.com/nexustix/mc-modpack-test/master/Mica/config/cofh/world/thermalfoundation_ores.json",
+  "RelativePath": "config/cofh/world",
+  "Groups": [
+    "custom",
+    "config"
+  ],
+  "Priority": 0,
+  "DoDepCheck": false,
+  "Dependencies": null
+}
