@@ -95,7 +95,6 @@ appendAtom psi
 appendAtom extra-utilities
 appendAtom tinkers-construct
 appendAtom giacomos-foundry
-appendAtom the-one-probe
 appendAtom just-enough-items-jei
 appendAtom just-enough-resources-jer
 appendAtom gravestone-mod
@@ -104,6 +103,7 @@ appendAtom iron-backpacks
 appendAtom bibliocraft
 appendAtom enderthing
 appendAtom ftb-utilities
+appendAtom light-level-overlay-reloaded ---#
 appendAtom storage-drawers
 appendAtom cooking-for-blockheads
 appendAtom natura
@@ -118,7 +118,6 @@ appendAtom unidict
 appendAtom appleskin
 appendAtom the-spice-of-life
 appendAtom funky-locomotion
-appendAtom sg-craft
 appendAtom inventory-tweaks
 appendAtom ftblib
 appendAtom tesla
@@ -134,6 +133,7 @@ appendAtom chameleon
 appendAtom wanionlib
 appendAtom cofhcore
 appendAtom codechicken-lib-1-8
+appendAtom compatlayer
 #COMMENT0
 
 #addAtom custom mca-eleccore

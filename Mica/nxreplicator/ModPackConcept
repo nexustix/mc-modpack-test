@@ -55,7 +55,7 @@ Util
     Bibliocraft                 *bibliocraft                ----# Books and more
     Enderthing                  *enderthing                 ----# Enderchests
     FTB Utilities               *ftb-utilities              ----# Chunkloading and owning
-    Light level overlay         *light-level-overlay-reloaded---#
+    Light level overlay         *light-level-overlay-reloaded --#
     [Storage Drawers]           *storage-drawers            ----# Fancy storage
     [Cooking for Blockheads]    *cooking-for-blockheads     ----# Pain-free cooking
 
@@ -100,3 +100,4 @@ DEPS
 
 *cofhcore
 *codechicken-lib-1-8
+*compatlayer
